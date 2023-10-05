@@ -71,6 +71,10 @@ colPerc(table1)
 ```
 
 
+In this version of the results we see the number of people in each group and the rate at which they contracted Aids.
+
+In the infected group, we see that there are approximately three times as many cases of aids in the placebo group as opposed to the treatment group.
+
 
 ## Inferential Results
 
