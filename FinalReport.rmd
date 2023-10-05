@@ -1,7 +1,7 @@
 ---
 title: "Aides Drug"
-author: "Put your name here!"
-date: "put the date here"
+author: "Shael Quintero"
+date: " FAll 2023"
 output: html_document
 ---
 
@@ -89,6 +89,7 @@ fisher.test(table1)
 
 
 # Discussion and Conclusion
+If you discovered a relationship, be sure to take into account whether it arises because one variable causes the other or if they might be connected for some other reason.  View the GeorgeTown video's chapter 6 videos.
 
 
 
