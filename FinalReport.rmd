@@ -11,13 +11,24 @@ require(tigerstats)
 triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
 ```
 
+
 # Introduction
 
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?.  If you skimp in this section expect to be marked down in your grade. Paint a picture of the project a couple of paragraphs is expected!-->
 
 A new  preventative aides drug (triUmpsal) is under test in clinical trials. Consider only the DrugUsers, does this drug seem effective?  Hint - use dplyr to obtain that subpopulation with the filter command.
 
+$H_0$: There is no difference in the data when comparing treatment and infection rate.
+
+$H_A$ There is a difference in the data when comparing treatment and infection rate.
+
+
+
 # Methods
+
+
+We will use the Dyplr tool "Filter" to create a subset of the data, storing only data where drug user = "yes".
+We will then use the CandP helper files to get R code to show a combination of:  graphical, numerical, and inferential to test the null hypotheseis.
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
